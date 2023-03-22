@@ -117,7 +117,7 @@ const blur=showcart?{filter:"blur(8px"}:{}
             Return to the home page!!! </Link>
             {showcart&&<div className='rate' >
                 <button className='closebutton' onClick={()=>setshoecart(false)}>Close</button>
-            <p>You have {totalQuantity} for {totalprice}$ </p> 
+            <p>You have {totalQuantity} product/s for {totalprice}$ </p> 
             <p>Are you sure you want to buy?</p>
             <button className="linkbutton" onClick={sendmail}>OK</button>
             </div>}

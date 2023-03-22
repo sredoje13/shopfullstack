@@ -575,6 +575,9 @@ width:70%
  }
 }
 @media only screen and (max-width:455px){
+  .inputdiv{
+    margin-top:50px
+  }
   .maybe{
     width:90vw
   }
